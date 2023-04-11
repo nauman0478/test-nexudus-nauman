@@ -1,0 +1,25 @@
+2023-04-11 03:03:30 INFO  LoginPage :53 - Title of page is Sign in to Nexudus Platform
+2023-04-11 03:03:30 INFO  LoginPage :33 - Entered email bad@example.com
+2023-04-11 03:03:30 INFO  LoginPage :38 - Entered password badpassword
+2023-04-11 03:03:30 INFO  LoginPage :43 - Clicking on Sign in
+2023-04-11 03:03:30 INFO  LoginPage :47 - Getting error message, The email or password is incorrect.
+2023-04-11 03:03:34 INFO  LoginPage :53 - Title of page is Sign in to Nexudus Platform
+2023-04-11 03:03:34 INFO  LoginPage :33 - Entered email adrian+1004930927@nexudus.com
+2023-04-11 03:03:34 INFO  LoginPage :38 - Entered password A8Pd6m16YfJt
+2023-04-11 03:03:34 INFO  LoginPage :43 - Clicking on Sign in
+2023-04-11 03:03:35 INFO  DashboardPage :29 - Title of page is Dashboard
+2023-04-11 03:03:38 INFO  LoginPage :33 - Entered email adrian+1004930927@nexudus.com
+2023-04-11 03:03:38 INFO  LoginPage :38 - Entered password A8Pd6m16YfJt
+2023-04-11 03:03:38 INFO  LoginPage :43 - Clicking on Sign in
+2023-04-11 03:03:39 INFO  DashboardPage :29 - Title of page is Dashboard
+2023-04-11 03:03:39 INFO  DashboardPage :35 - Navigated to product page
+2023-04-11 03:03:40 INFO  ProductsPage :64 - Clicked on Add product
+2023-04-11 03:03:40 INFO  ProductsPage :69 - Sent name is  Test Product
+2023-04-11 03:03:40 INFO  ProductsPage :74 - Sent description is This is to test the product
+2023-04-11 03:03:41 INFO  ProductsPage :83 - Sent price is 10
+2023-04-11 03:03:41 INFO  ProductsPage :93 - clicked on Save changes
+2023-04-11 03:03:42 INFO  ProductsPage :101 - Sent text to search bar is Test Product
+2023-04-11 03:03:44 INFO  ProductsPage :112 - Clicked on Test Product
+2023-04-11 03:03:45 INFO  ProductsPage :120 - Clicked on Delete
+2023-04-11 03:03:45 INFO  ProductsPage :126 - Clicked on Yes, do it
+2023-04-11 03:03:45 INFO  ProductsPage :130 - Confirmed the product is no longer available

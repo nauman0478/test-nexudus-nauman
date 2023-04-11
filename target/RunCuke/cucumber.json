@@ -1,0 +1,544 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 69900500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on login page",
+            "match": {
+              "location": "LoginStepdefs.iAmOnLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3543441200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.browserSetup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "I shouldn\u0027t be able to login with invalid credentials and page shows error message",
+        "description": "",
+        "id": "nexudus-login-test;i-shouldn\u0027t-be-able-to-login-with-invalid-credentials-and-page-shows-error-message",
+        "after": [
+          {
+            "result": {
+              "duration": 610160800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1025409400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I confirm login page is available",
+            "match": {
+              "location": "LoginStepdefs.iConfirmLoginPageIsAvailable()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50822300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter \"bad@example.com\" as email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bad@example.com",
+                  "offset": 9
+                }
+              ],
+              "location": "LoginStepdefs.iEnterAsEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48902800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter \"badpassword\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "badpassword",
+                  "offset": 9
+                }
+              ],
+              "location": "LoginStepdefs.iEnterAsPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37944700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on the Login button",
+            "match": {
+              "location": "LoginStepdefs.iClickOnTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76178400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see a clear error message on the screen",
+            "match": {
+              "location": "LoginStepdefs.iShouldSeeAClearErrorMessageOnTheScreen()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on login page",
+            "match": {
+              "location": "LoginStepdefs.iAmOnLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2447216200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.browserSetup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "I should be able to login with valid credentials",
+        "description": "",
+        "id": "nexudus-login-test;i-should-be-able-to-login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 602786200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1017740500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I confirm login page is available",
+            "match": {
+              "location": "LoginStepdefs.iConfirmLoginPageIsAvailable()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65139600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter \"adrian+1004930927@nexudus.com\" as email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "adrian+1004930927@nexudus.com",
+                  "offset": 9
+                }
+              ],
+              "location": "LoginStepdefs.iEnterAsEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45675600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter \"A8Pd6m16YfJt\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "A8Pd6m16YfJt",
+                  "offset": 9
+                }
+              ],
+              "location": "LoginStepdefs.iEnterAsPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37926300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on the Login button",
+            "match": {
+              "location": "LoginStepdefs.iClickOnTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 802386300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should be redirected to the dashboard home page",
+            "match": {
+              "location": "LoginStepdefs.iShouldBeRedirectedToTheDashboardHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Nexudus Login Test",
+    "description": "As a user I should be able to login",
+    "id": "nexudus-login-test",
+    "keyword": "Feature",
+    "uri": "Logintest.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2418389200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.browserSetup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "As a User I should be able to add and delete a product",
+        "description": "",
+        "id": "adding-and-deleting-products;as-a-user-i-should-be-able-to-add-and-delete-a-product",
+        "after": [
+          {
+            "result": {
+              "duration": 631688100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on login page",
+            "match": {
+              "location": "LoginStepdefs.iAmOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 322184200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter \"adrian+1004930927@nexudus.com\" as email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "adrian+1004930927@nexudus.com",
+                  "offset": 9
+                }
+              ],
+              "location": "LoginStepdefs.iEnterAsEmail(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70506600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter \"A8Pd6m16YfJt\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "A8Pd6m16YfJt",
+                  "offset": 9
+                }
+              ],
+              "location": "LoginStepdefs.iEnterAsPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40357400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the Login button",
+            "match": {
+              "location": "LoginStepdefs.iClickOnTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 857371700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be redirected to the dashboard home page",
+            "match": {
+              "location": "LoginStepdefs.iShouldBeRedirectedToTheDashboardHomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 137734600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to product page",
+            "match": {
+              "location": "ProductsStepdefs.iNavigateToProductPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 262447900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Add Product button",
+            "match": {
+              "location": "ProductsStepdefs.iClickOnAddProductButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 171393400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I fill \"name\" as name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "name",
+                  "offset": 8
+                }
+              ],
+              "location": "ProductsStepdefs.iFillAsName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90337400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I fill \"description\" as description",
+            "match": {
+              "arguments": [
+                {
+                  "val": "description",
+                  "offset": 8
+                }
+              ],
+              "location": "ProductsStepdefs.iFillAsDescription(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1114379500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I fill the \"price\" as price",
+            "match": {
+              "arguments": [
+                {
+                  "val": "price",
+                  "offset": 12
+                }
+              ],
+              "location": "ProductsStepdefs.iFillTheAsPrice(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57418500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on save changes",
+            "match": {
+              "location": "ProductsStepdefs.iClickOnSaveChanges()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1078124200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I search by the new product by name",
+            "match": {
+              "location": "ProductsStepdefs.iSearchByTheNewProductByName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2114162500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "i should be able to see the new product name on top of list",
+            "match": {
+              "location": "ProductsStepdefs.iShouldBeAbleToSeeTheNewProductNameOnTopOfList()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I select the first item on the list",
+            "match": {
+              "location": "ProductsStepdefs.iSelectTheFirstItemOnTheList()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 162846000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on Delete 1 record button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 18
+                }
+              ],
+              "location": "ProductsStepdefs.iClickOnDeleteRecordButton(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42938600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I confirm modal dialog by clicking on Yes do it",
+            "match": {
+              "location": "ProductsStepdefs.iConfirmModalDialogByClickingOnYesDoIt()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 524182600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should be able to confirm that product is no longer available",
+            "match": {
+              "location": "ProductsStepdefs.iShouldBeAbleToConfirmThatProductIsNoLongerAvailable()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Adding and deleting Products",
+    "description": "",
+    "id": "adding-and-deleting-products",
+    "keyword": "Feature",
+    "uri": "products.feature"
+  }
+]
